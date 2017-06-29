@@ -1,5 +1,4 @@
 provider "aws" {
-  shared_credentials_file = "aws_credentials"
-  profile                 = "beto"
+  profile    = "default"
   region     = "us-east-1"
 }
